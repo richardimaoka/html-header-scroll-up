@@ -27,7 +27,7 @@
           padding: 20px;
         }
         to {
-          padding: 5px;
+          padding: 5px 20px;
         }
       }
 
@@ -80,41 +80,7 @@
         margin-bottom: 20px;
         font-size: 1.1rem;
       }
-      @keyframes shrink-meta {
-        from {
-          font-size: 1rem;
-          margin-bottom: 10px;
-        }
-        to {
-          font-size: 0.8rem;
-          margin-bottom: 5px;
-        }
-      }
 
-      .article-meta {
-        font-style: italic;
-        color: #6c757d;
-        margin-bottom: 10px;
-        animation: shrink-meta linear;
-        animation-timeline: scroll();
-        animation-range: 0 200px;
-        animation-fill-mode: forwards;
-      }
-      .image-container {
-        margin: 30px 0;
-        text-align: center;
-      }
-      .image-container img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      .image-caption {
-        font-size: 0.9rem;
-        color: #6c757d;
-        margin-top: 10px;
-      }
       blockquote {
         background-color: #f8f9fa;
         border-left: 5px solid #6c757d;
@@ -122,20 +88,11 @@
         margin: 20px 0;
         font-style: italic;
       }
-      .conclusion {
-        background-color: #f8f9fa;
-        padding: 20px;
-        border-radius: 5px;
-        margin-top: 40px;
-      }
     </style>
   </head>
   <body>
     <header>
       <h1>The Evolution of Web Development</h1>
-      <div class="article-meta">
-        By John Doe | Published: April 12, 2025 | 15 min read
-      </div>
     </header>
 
     <main>
@@ -175,13 +132,6 @@
         animated GIFs, hit counters, and guestbooks – features that seem quaint
         today but represented significant innovations at the time.
       </p>
-
-      <div class="image-container">
-        <div class="image-caption">
-          Early web pages were simple and text-heavy with minimal styling
-          options.
-        </div>
-      </div>
 
       <h2>The CSS Revolution: Separating Style from Structure</h2>
       <p>
@@ -261,13 +211,6 @@
         rich, responsive user experiences that were previously only possible
         with installed software.
       </p>
-
-      <div class="image-container">
-        <div class="image-caption">
-          Modern web applications offer rich, interactive experiences that rival
-          native applications.
-        </div>
-      </div>
 
       <h2>Server-Side Evolution: From CGI to Microservices</h2>
       <p>
@@ -407,13 +350,6 @@
         distinction between web and native applications.
       </p>
 
-      <div class="image-container">
-        <div class="image-caption">
-          WebAssembly enables high-performance applications in the browser,
-          including games and professional tools.
-        </div>
-      </div>
-
       <h2>Accessibility and Inclusive Design</h2>
       <p>
         As the web has become an essential part of daily life, ensuring that
@@ -500,33 +436,31 @@
         interfaces that encourage sustainable user behaviors.
       </p>
 
-      <div class="conclusion">
-        <h3>Conclusion</h3>
-        <p>
-          The evolution of web development reflects broader technological and
-          social changes. From simple static pages to complex, interactive
-          applications, the web has continuously adapted to meet new needs and
-          expectations. As we move forward, web development will likely continue
-          to embrace new technologies while maintaining its core values of
-          openness, accessibility, and universal reach.
-        </p>
+      <h3>Conclusion</h3>
+      <p>
+        The evolution of web development reflects broader technological and
+        social changes. From simple static pages to complex, interactive
+        applications, the web has continuously adapted to meet new needs and
+        expectations. As we move forward, web development will likely continue
+        to embrace new technologies while maintaining its core values of
+        openness, accessibility, and universal reach.
+      </p>
 
-        <p>
-          For developers, this ongoing evolution presents both challenges and
-          opportunities. Staying current with new technologies and best
-          practices requires continuous learning, but it also offers the chance
-          to build increasingly sophisticated and impactful applications that
-          can reach billions of users worldwide.
-        </p>
+      <p>
+        For developers, this ongoing evolution presents both challenges and
+        opportunities. Staying current with new technologies and best practices
+        requires continuous learning, but it also offers the chance to build
+        increasingly sophisticated and impactful applications that can reach
+        billions of users worldwide.
+      </p>
 
-        <p>
-          The web's journey from its humble beginnings to its current state has
-          been remarkable, but in many ways, we're still in the early chapters
-          of its story. The coming decades will undoubtedly bring innovations we
-          can scarcely imagine today, continuing the web's tradition of constant
-          reinvention and growth.
-        </p>
-      </div>
+      <p>
+        The web's journey from its humble beginnings to its current state has
+        been remarkable, but in many ways, we're still in the early chapters of
+        its story. The coming decades will undoubtedly bring innovations we can
+        scarcely imagine today, continuing the web's tradition of constant
+        reinvention and growth.
+      </p>
     </main>
     <script>
       // Variable to store the last scroll position
